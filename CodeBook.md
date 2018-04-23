@@ -1,9 +1,6 @@
----
-title: "Code Book"
-output: html_document
----
-<br><br>
+# Code Book
 
+<br>
 We give here a detailed explanation of the variables, the data, and the transformations performed by the script "run_analysis.R" provided in this repository to tidy the [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).  
 
 ## The experiments
