@@ -60,8 +60,9 @@ mean_std_data <- merged_data[, c(1, 2, grep("mean[^F]|std",names(merged_data)))]
 
 # New data set with average of variables for each subject and activity
 average_data <- mean_std_data %>% group_by(subject, activity) %>% summarise_all(mean)
+rm("merged_data", "mean_std_data")
 
-# Save the average_data in "tidy_data.csv"
-write.csv(average_data, "./tidy_data.csv", row.names = FALSE)
+# Save the average_data in "tidy_data.txt"
+# write.table(average_data, "./tidy_data.txt", row.names = FALSE)
 
 
