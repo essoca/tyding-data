@@ -1,4 +1,6 @@
 
+library(dplyr)
+
 # Function to process training and test data sets separately
 process <- function(data, directory) {
     ## data is the string "train" or "test".
