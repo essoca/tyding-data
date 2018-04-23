@@ -37,6 +37,6 @@ The function "process" is applied on the the training and test data sets to crea
 
 - Merge "train_df" and "test_df" into "merged_data" by row binding.
 - Create a new data frame "mean_std_data" from "merged_data" by selecting the columns (features) whose names match the regular expression "mean[^F]|std". This selects only the measurements on which mean() and std() has been applied, discarding names in which meanFreq() appears.
-- Finally a data frame "average_data" is created from "mean_std_data" by grouping according to the columns "subject" and "activity" and summarizing all the remaining features by applying the mean function. The result is saved in the file "tidy_data.csv" for distribution.
+- Finally a data frame "average_data" is created from "mean_std_data" by grouping according to the columns "subject" and "activity" and summarizing all the remaining features by applying the mean function. The result is saved in the file "tidy_data.txt" for distribution.
 - The units for the linear accelerations are m/s<sup>2</sup> and for the angular velocities rad/s.
 
