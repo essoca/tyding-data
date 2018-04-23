@@ -13,7 +13,3 @@ In this repository, a script for tyding the data in the [Human Activity Recognit
 "CodeBook.md":
 
 Gives a detailed explanation of the variables, the data, and the transformations performed by the above script to tidy the data set.
-
-"tidy_data.csv":
-
-A table with the tidy data set.
