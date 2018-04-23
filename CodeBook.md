@@ -23,7 +23,7 @@ The training (test) data set contains 7351 (2946) observations of 561 variables.
 
 ## The analysis script
 
-The script "run_analysis.R" is run from the directory "./" of the above tree. It defines a function called "process" which does the following task when called independently on the training and test data sets:
+The script "run_analysis.R" should be run from the directory "./" of the above tree. It defines a function called "process" which does the following task when called independently on the training and test data sets:
 
 - It reads the data set ("train" or "test") as text and begings extracting the string corresponding to each observation.
 - It parses each of these strings to extract the 561 variables defined in "features.txt".
